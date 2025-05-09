@@ -8,6 +8,7 @@ $ErrorActionPreference = "Stop"
 Write-Host "Installation des dépendances Python..."
 #
 conda env create -f environment.yml -y
+conda activate Proba_ML
 pip install -r requirements.txt -y
 
 
